@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Website</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="navbar_container">
+      <div class="navbar_logo">
+        <img src="./assets/images/logo.webp" alt="">
+      </div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Guru</a>
+        <a href="#">Siswa</a>
+        <a href="#">Pendaftaran</a>
+        <a href="#">Lainya</a>
+        <a href="#">Kontak</a>
+      </nav>
+    </div>
+    <div class="header_content">
+        <div class="content_col">
+            <h4>MOTTO</h4>
+            <p>SMP N 1 Cibadak (Cerdas Beretika) Ceria, Empati, Rasional, Damai, Aktif, Sabar, Bersih, Elok, Tulus, Iman, Konsiste, Amanah.</p>
+            <button class="btn">Contact us</button>
+        </div>
+    </div>
+  </header>
+  <section>
+    <div class="hero">
+      <div class="hero_container">
+          <div class="hero_main">
+            <div class="hero_video_content">
+                <div class="content_video">
+                  <video autoplay="" loop="" controls="" poster="./assets/images/video_img.webp">
+                    <source type="video/mp4" src="https://endtest-videos.s3-us-west-2.amazonaws.com/documentation/endtest_data_driven_testing_csv.mp4">
+                    </video>
+                </div>
+                <div class="hero_img">
+                  <img src="./assets/images/cirkal.svg" alt="">
+                </div>
+            </div>
+            <div class="hero_text_container">
+              <h2>Sambutan Kepala Sekolah SMP Negeri 1 Cibadak</h2>
+              <p>
+                Puji dan syukur mari kita panjatkan kehadirat Allah SWT. Yang senantiasa dengan sifat kasih dan sayangnya banyak memberikan nikmat  ...
+              </p>
+             <button><span>Lebih Lanjut</span></button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section>
+     <div class="card_container">
+      <div class="card_row">
+        <div class="card_col_1">
+          <div class="card_content_description">
+            <div class="card_block">
+              <span>Profile Sekolah</span>
+              <p>
+                Di samping adalah profil sekolah kami secara keseluruhan dari mulai
+                bagian depan hingga seluruh fasilitas yang terdapat disekolah kami
+                kami akan ...
+              </p>
+              <button><span>Lebih Lanjut</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="card_col_2">
+          <div class="card_content_box">
+            <div class="card">
+              <div class="card_inner_content">
+                <img src="./assets/images/Fasilitas.webp" alt="" />
+                <h1 id="card_heading_1">Fasilitas</h1>
+                <p>Lorem ipsum dolor sit amet adipcing aqua lorem ipsum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_inner_content">
+                <img src="./assets/images/lokasi.webp" alt="" />
+                <h1 id="card_heading_2">Fasilitas</h1>
+                <p>Lorem ipsum dolor sit amet adipcing aqua lorem ipsum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_inner_content">
+                <img src="./assets/images/Sejarah.webp" alt="" />
+                <h1 id="card_heading_3">Fasilitas</h1>
+                <p>Lorem ipsum dolor sit amet adipcing aqua lorem ipsum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card_inner_content">
+                <img src="./assets/images/Prestasi.webp" alt="" />
+                <h1 id="card_heading_4">Fasilitas</h1>
+                <p>Lorem ipsum dolor sit amet adipcing aqua lorem ipsum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+     </div>
+  </section>
+  <section>
+    <div class="search_main">
+      <div class="search_container">
+        <div class="search_container_heading">
+          <div class="search_heading">
+            <h1>Berita dan Agenda</h1>
+          </div>
+          <div class="search_bar">
+            <i class="fa fa-search search-icon"></i>
+            <input type="text" class="search-bar" placeholder="Search..." />
+          </div>
+      </div>
+      <div class="search_item">
+        <div class="search_item_row_1">
+          <div class="search_item_card">
+            <div class="search_card_img">
+              <img src="./assets/images/laptop.webp" alt="">
+            </div>
+            <div class="search_card_content">
+              <h3>Belajar di Rumah</h3>
+              <p>Lorem ipsum dolor sit amet adipcing amet adipcingamet adipci aqua lorem ipsum.</p>
+              <span>20 Juni</span> 
+              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="search_item_card">
+            <div class="search_card_img">
+              <img src="./assets/images/Kegiatan.webp" alt="">
+            </div>
+            <div class="search_card_content">
+              <h3>Kegiatan Belajar mengajar di
+                Rumah</h3>
+              <p>Lorem ipsum dolor sit amet adipcing amet adipcingamet adipci aqua lorem ipsum.</p>
+              <span>20 Juni</span> 
+              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="search_item_card">
+            <div class="search_card_img">
+              <img src="./assets/images/student.webp" alt="">
+            </div>
+            <div class="search_card_content">
+              <h3>Kegiatan Belajar mengajar di Rumah</h3>
+              <p>Lorem ipsum dolor sit amet adipcing amet adipcingamet adipci aqua lorem ipsum.</p>
+              <span>20 Juni</span> 
+              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="search_item_card">
+            <div class="search_card_img">
+              <img src="./assets/images/laptops.webp" alt="">
+            </div>
+            <div class="search_card_content">
+              <h3>Kegiatan Pembelajaran Daring</h3>
+              <p>Lorem ipsum dolor sit amet adipcing amet adipcingamet adipci aqua lorem ipsum.</p>
+              <span>20 Juni</span> 
+              <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="search_item_row_2">
+          <div class="search_item_card_2">
+            <div class="box_1">
+              <div>
+                <img src="./assets/images/logo.webp" alt="">
+              </div>
+              <div class="box_content">
+                <span>01 - 06 - 2021</span>
+                <h3>Deklarasi Sekolah Ramah Anak</h3>
+              </div>
+              <div>
+                <a href=""><i style="margin-left: 10px; font-size: 12px;" class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="search_item_card_2">
+            <div class="box_1">
+              <div>
+                <img src="./assets/images/logo.webp" alt="">
+              </div>
+              <div class="box_content">
+                <span>01 - 06 - 2021</span>
+                <h3>Deklarasi Sekolah Ramah Anak</h3>
+              </div>
+              <div>
+                <a href=""><i style="margin-left: 10px; font-size: 12px;" class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="search_item_card_2">
+            <div class="box_1">
+              <div>
+                <img src="./assets/images/Pemberitahuan PPDB 20202021.webp" alt="">
+              </div>
+              <div class="box_content">
+                <span>01 - 06 - 2021</span>
+                <h3>Deklarasi Sekolah Ramah Anak</h3>
+              </div>
+              <div>
+                <a href=""><i style="margin-left: 10px; font-size: 12px;" class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section>
+    <div class="gallery_containor">
+      <h2>Gallery</h2>
+        <div class="gallery_row">
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_1.webp" alt="no find img">
+            </div>
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_2.webp" alt="no find img">
+            </div>
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_3.webp" alt="no find img">
+            </div>
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_4.webp" alt="no find img">
+            </div>
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_5.webp" alt="no find img">
+            </div>
+            <div class="gallery_img">
+              <img src="./assets/images/gallery_6.webp" alt="no find img">
+            </div>
+        </div>
+        <center><a href=""><button>Lebih Lanjut</button></a></center>
+    </div>
+  </section>
+  <footer>
+    <div class="footer_container">
+     <div class="footer_main">
+        <div class="contact">
+          <img src="./assets/images/logo.webp" alt="">
+          <p>Jl. Siliwangi No 123, Cibadak, Cibadak, Sukabumi, Jawa Barat 43351, Indonesia, (0266)531333</p>
+          <h3>info@smpn1cibadak.sch.id</h3>
+          <h3>smpn1cbd_kabsi@yahoo.co.id</h3>
+        </div>
+        <div class="contact_name">
+            <h2>Jelajah</h2>
+            <span id="sambutan"><a href="">Sambutan</a></span>
+            <span id="profil"><a href="">Profil Sekolah</a></span>
+            <span id="berita"><a href="">Berita</a></span>
+            <span id="galeri"><a href="">Galeri</a></span>
+        </div>
+        <div class="contant_halaman">
+          <h3>Halaman Umum</h3>
+          <span><a href="">Data Guru</a></span><br>
+          <span><a href="">PPDB SMPN 1 Cibadak</a></span>
+          <span><a href="">Panduan PPDB</a></span>
+          <span><a href="">Lokasi</a></span>
+          <span><a href="">Kontak</a></span>
+        </div>
+        <div class="contact_icon">
+          <h2>Media Socal</h2>
+          <div class="contant_icons">
+              <div class="icon_gap">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="icon_gap">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+              <div class="icon_gap">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </div>
+        </div>
+     </div>
+     <div class="footer_outline">
+     </div>
+     <div class="footer_numcontant">
+        <p>Copyright © SMP Negeri 1 Cibadak. All right Reserved. Hosting By IDCloudHost</p>
+     </div>
+    </div>
+</footer>
+</body>
+</html>
