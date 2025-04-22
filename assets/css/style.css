@@ -150,7 +150,6 @@ header{
 .content_video{
   max-width: 456px;
   height: 342px;
-  /* margin-left: 20px; */
   margin-top: 10px;
   position: relative;
   z-index: 2;
@@ -885,7 +884,7 @@ footer{
   height: auto;
   background-color: #F9FBFD;
   margin: 0 auto;
-  padding: 0px 16px;
+  padding: 16px 16px;
 }
 
 .gallery_row{
@@ -903,49 +902,7 @@ footer{
   align-items: center;
 }
 
-
-
-
-
 /* five section end */
-
-.footer_main{
-  margin:0 auto;
-  display: flex;
-  flex-direction: row;
-  /* padding-left: 0px; */
-}
-
-.contact_name{
-  max-width: 100px;
-  height: 174px;
-  margin-top: 64px;
-  margin-left: 0px;
-  display: flex;
-  flex-direction: column;
-}
-
-.contant_halaman {
-  max-width: 158px;
-  height: 208px;
-  margin-top: 64px;
-  margin-left: 40px;
-}
-
-.contact_icon {
-  display: flex;
-  flex-direction: column;
-  margin-top: 64px;
-  margin-left: 40px;
-}
-
-.footer_outline{
-  max-width: 1140px;
-  margin-top: 10px;
-  border: 1px solid #E6E6E7;
-  margin-left: 40px;
-}
-
 }
 
 @media (max-width: 992px) {
@@ -1262,7 +1219,7 @@ footer{
 }
 
 .galery_col{
-  width: 29%;
+  width: 46%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1282,8 +1239,6 @@ footer{
   width: 50%;
   justify-items: flex-start;
 }
-
-
 
 }
 
