@@ -492,6 +492,7 @@ header{
 }
 
 
+
 .search_item_card{
   max-width: 582px;
   height: 152px;
@@ -1020,11 +1021,11 @@ footer{
 
   
 .gallery_containor{
-  max-width: 1440px;
+  max-width: 1140px;
   height: auto;
   background-color: #F9FBFD;
   margin: 0 auto;
-  padding: 10px 0px;
+  padding: 16px 16px;
 }
 
 .gallery_row{
@@ -1036,12 +1037,11 @@ footer{
 }
 
 .galery_col{
-  width: 33.33%;
+  width: 29.33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 
   .footer_main{
@@ -1170,9 +1170,6 @@ footer{
     top: -51%;
     left: 11%;
   }
-  .hero_container {
-    height: 550px;
-}
 
 .hero_text_container h2{
   max-width: 520px;
@@ -1203,11 +1200,12 @@ footer{
 
 /* third section start */
 .card_container{
-  max-width: 1440px;
-  height: auto;
+  max-width: 1140px;
+  height:0 auto;
   background-color:#F9FBFD;
   display: flex;
   flex-direction: column;
+  padding: 16px 16px;
 }
 
 .card_row{
@@ -1264,7 +1262,7 @@ footer{
 /* four section start */
 
 .search_container_heading{
-  max-width: 1150px;
+  max-width: 1140px;
   height: auto;
   display: flex;
   margin: 0 auto;
@@ -1306,7 +1304,7 @@ footer{
 }
 
 .search_item{
-  max-width: 1150px;
+  max-width: 1140px;
   height: auto;
   display: flex;
   flex-direction:column;
@@ -1356,7 +1354,7 @@ footer{
   height: auto;
   background-color: #F9FBFD;
   margin: 0 auto;
-  padding: 0px 16px;
+  padding: 16px 16px;
 }
 
 .gallery_row{
@@ -1368,7 +1366,7 @@ footer{
 }
 
 .galery_col{
-  width: 33.33%;
+  width: 29%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1533,7 +1531,7 @@ footer{
   max-width: 450px;
   height: 310px;
   margin-top: 12px;
-  margin-left: 12px;
+  margin-left: 0px;
   border-right:none;
 }
 
@@ -1558,6 +1556,9 @@ footer{
   justify-content:  center;
   align-items: center;
 }
+
+
+
 
 /* third section end*/
 /* four section start */
@@ -1632,7 +1633,8 @@ footer{
   justify-content: center;
   gap: 120px;
   border-right: none;
-  padding: 0px 20px;
+  margin-left: 0px;
+  padding: 0px 0px !important;
 }
 
 .search_card_content{
@@ -1647,7 +1649,8 @@ footer{
   margin-top: 160px;
   margin-left: 10px;
   gap: 40px;
-  padding: 10px 20px;
+  padding: 0px 0px !important;
+
 }
 
 /* four section end */
@@ -1660,7 +1663,7 @@ footer{
   height: auto;
   background-color: #F9FBFD;
   margin: 0 auto;
-  padding: 0px 16px;
+  padding: 16px 16px;
 }
 
 .gallery_row{
