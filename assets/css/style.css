@@ -1258,7 +1258,7 @@ footer{
   flex-wrap: wrap;
   flex-direction: row;
   gap: 40px;
-  justify-content: center;
+  justify-content: start;
 }
 
 .galery_col{
